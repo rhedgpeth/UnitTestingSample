@@ -31,7 +31,7 @@ namespace UnitTests
 		[Test()]
 		public void TestDepartment_BadNullTest_Example()
 		{
-			Assert.IsNotNull(null);
+			Assert..IsNotNull(null);
 		}
 
 		[Test()]
@@ -60,8 +60,6 @@ namespace UnitTests
 		{
 			Assert.DoesNotThrow(() =>
 			{
-				throw new Exception();
-
 				var dept = CreateNewDummyDepartment(true);
 				dept.SortCategories();
 			});

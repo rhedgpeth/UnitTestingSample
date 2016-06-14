@@ -2,7 +2,8 @@
 
 namespace UnitTester.Models
 {
-	public partial class Category
+
+	public class Category
 	{
 		public string ApiUrl { get; set; }
 		public string DisplayName { get; set; }

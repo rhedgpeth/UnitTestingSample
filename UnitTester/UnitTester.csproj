@@ -47,6 +47,5 @@
     <Folder Include="Models\" />
     <Folder Include="Enums\" />
   </ItemGroup>
-  <Import Project="..\UnitTester.Shared\UnitTester.Shared.projitems" Label="Shared" Condition="Exists('..\UnitTester.Shared\UnitTester.Shared.projitems')" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
 </Project>

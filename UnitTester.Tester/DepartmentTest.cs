@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using NUnit.Framework;
 using UnitTester.Models;
 
-namespace UnitTests
+namespace UnitTester.Tester
 {
 	[TestFixture()]
 	public class DepartmentTest
@@ -31,7 +30,7 @@ namespace UnitTests
 		[Test()]
 		public void TestDepartment_BadNullTest_Example()
 		{
-			Assert..IsNotNull(null);
+			Assert.IsNotNull(null);
 		}
 
 		[Test()]

@@ -39,6 +39,11 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <Import Project="..\UnitTester.Shared\UnitTester.Shared.projitems" Label="Shared" Condition="Exists('..\UnitTester.Shared\UnitTester.Shared.projitems')" />
+  <ItemGroup>
+    <ProjectReference Include="..\UnitTester\UnitTester.csproj">
+      <Project>{D342AD85-0D3A-41E9-BE40-E7A8592BD69D}</Project>
+      <Name>UnitTester</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
